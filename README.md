@@ -1,4 +1,4 @@
-# Checkmk extension for Sentry4 PDU status, outlets and environment sensors based on Sentry4-MIB
+# Checkmk extension for Sentry4-MIB
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/curtisbowden/checkmk_sentry4_pdu?label=version&logo=git&sort=semver)
 
@@ -7,6 +7,7 @@
 ![pytest](https://github.com/curtisbowden/checkmk_sentry4_pdu/workflows/pytest/badge.svg)
 
 ## Description
+### Sentry4 PDU status, outlets and environment sensors
 
 - `sentry4_pdu_status` discovers and checks pdu metadata and unit status
   - unit ID
@@ -16,7 +17,6 @@
   - unit Type
   - unit Status
 
--
 
 ## Development
 

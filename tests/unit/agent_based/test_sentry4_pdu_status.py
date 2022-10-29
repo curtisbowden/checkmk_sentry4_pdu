@@ -45,21 +45,19 @@ from cmk.base.plugins.agent_based import sentry4_pdu_status
                                           'SN': 'ABCD0000001',
                                           'Model': 'C2WG36TE-YQME2M66/C',
                                           'Status': '0',
-                                          'Type': '0', },
-
+                                          'Type': '0'},
             'Sentry PDU status: Link1': {'Unit': 'B',
                                          'Name': 'Link1',
                                          'SN': 'ABCD0000002',
                                          'Model': 'C2XG36TE-YQME2M66/C',
                                          'Type': '1',
-                                         'Status': '0' },
-
+                                         'Status': '0'},
             'Sentry PDU status: EMCU': {'Unit': 'E',
                                         'Name': 'EMCU',
                                         'SN': '',
                                         'Model': 'EMCU-1-1B(C)',
                                         'Type': '3',
-                                        'Status': '0' }
+                                        'Status': '0'}
         },
 
     ),
@@ -76,21 +74,19 @@ def test_parse_sentry4_pdu_status(string_table, result):
                                           'SN': 'ABCD0000001',
                                           'Model': 'C2WG36TE-YQME2M66/C',
                                           'Status': '0',
-                                          'Type': '0', },
-
+                                          'Type': '0'},
             'Sentry PDU status: Link1': {'Unit': 'B',
                                          'Name': 'Link1',
                                          'SN': 'ABCD0000002',
                                          'Model': 'C2XG36TE-YQME2M66/C',
                                          'Type': '1',
-                                         'Status': '0' },
-
+                                         'Status': '0'},
             'Sentry PDU status: EMCU': {'Unit': 'E',
                                         'Name': 'EMCU',
                                         'SN': '',
                                         'Model': 'EMCU-1-1B(C)',
                                         'Type': '3',
-                                        'Status': '0' }
+                                        'Status': '0'}
         },
 
         [Service(item='Sentry PDU status: Master'), Service(item='Sentry PDU status: Link1'), Service(item='Sentry PDU status: EMCU')]
@@ -110,21 +106,19 @@ def test_discover_sentry4_pdu_status(section, result):
                                           'SN': 'ABCD0000001',
                                           'Model': 'C2WG36TE-YQME2M66/C',
                                           'Status': '0',
-                                          'Type': '0', },
-
+                                          'Type': '0'},
             'Sentry PDU status: Link1': {'Unit': 'B',
                                          'Name': 'Link1',
                                          'SN': 'ABCD0000002',
                                          'Model': 'C2XG36TE-YQME2M66/C',
                                          'Type': '1',
-                                         'Status': '0' },
-
+                                         'Status': '0'},
             'Sentry PDU status: EMCU': {'Unit': 'E',
                                         'Name': 'EMCU',
                                         'SN': '',
                                         'Model': 'EMCU-1-1B(C)',
                                         'Type': '3',
-                                        'Status': '0' }
+                                        'Status': '0'}
         },
 
         []
@@ -137,21 +131,19 @@ def test_discover_sentry4_pdu_status(section, result):
                                           'SN': 'ABCD0000001',
                                           'Model': 'C2WG36TE-YQME2M66/C',
                                           'Status': '0',
-                                          'Type': '0', },
-
+                                          'Type': '0'},
             'Sentry PDU status: Link1': {'Unit': 'B',
                                          'Name': 'Link1',
                                          'SN': 'ABCD0000002',
                                          'Model': 'C2XG36TE-YQME2M66/C',
                                          'Type': '1',
-                                         'Status': '0' },
-
+                                         'Status': '0'},
             'Sentry PDU status: EMCU': {'Unit': 'E',
                                         'Name': 'EMCU',
                                         'SN': '',
                                         'Model': 'EMCU-1-1B(C)',
                                         'Type': '3',
-                                        'Status': '0' }
+                                        'Status': '0'}
         },
 
         [Result(state=State.OK, summary='Status: normal(0), Unit: A, Name: Master, SN: ABCD0000001, Model: C2WG36TE-YQME2M66/C, Type: masterPdu(0)')]
@@ -164,21 +156,19 @@ def test_discover_sentry4_pdu_status(section, result):
                                           'SN': 'ABCD0000001',
                                           'Model': 'C2WG36TE-YQME2M66/C',
                                           'Status': '2',
-                                          'Type': '0', },
-
+                                          'Type': '0'},
             'Sentry PDU status: Link1': {'Unit': 'B',
                                          'Name': 'Link1',
                                          'SN': 'ABCD0000002',
                                          'Model': 'C2XG36TE-YQME2M66/C',
                                          'Type': '1',
-                                         'Status': '0' },
-
+                                         'Status': '0'},
             'Sentry PDU status: EMCU': {'Unit': 'E',
                                         'Name': 'EMCU',
                                         'SN': '',
                                         'Model': 'EMCU-1-1B(C)',
                                         'Type': '3',
-                                        'Status': '0' }
+                                        'Status': '0'}
         },
         [Result(state=State.WARN, summary='Status: purged(2), Unit: A, Name: Master, SN: ABCD0000001, Model: C2WG36TE-YQME2M66/C, Type: masterPdu(0)')]
     ),
@@ -190,26 +180,22 @@ def test_discover_sentry4_pdu_status(section, result):
                                           'SN': 'ABCD0000001',
                                           'Model': 'C2WG36TE-YQME2M66/C',
                                           'Status': '2',
-                                          'Type': '0', },
-
+                                          'Type': '0'},
             'Sentry PDU status: Link1': {'Unit': 'B',
                                          'Name': 'Link1',
                                          'SN': 'ABCD0000002',
                                          'Model': 'C2XG36TE-YQME2M66/C',
                                          'Type': '1',
-                                         'Status': '8' },
-
+                                         'Status': '8'},
             'Sentry PDU status: EMCU': {'Unit': 'E',
                                         'Name': 'EMCU',
                                         'SN': '',
                                         'Model': 'EMCU-1-1B(C)',
                                         'Type': '3',
-                                        'Status': '0' }
+                                        'Status': '0'}
         },
         [Result(state=State.CRIT, summary='Status: lost(8), Unit: B, Name: Link1, SN: ABCD0000002, Model: C2XG36TE-YQME2M66/C, Type: linkPdu(1)')]
     ),
 ])
 def test_check_sentry4_pdu_status(monkeypatch, item, section, result):
     assert list(sentry4_pdu_status.check_sentry4_pdu_status(item, section)) == result
-
-

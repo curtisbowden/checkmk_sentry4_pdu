@@ -17,6 +17,7 @@
   - unit Type
   - unit Status
 
+- `sentry4_pdu_temp` discovers and checks pdu temperature sensors
 
 ## Development
 

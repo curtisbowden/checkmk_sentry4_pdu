@@ -1,9 +1,9 @@
 {
-    'author': u'',
-    'description': u'',
-    'download_url': '',
+    'author': 'Curtis Bowden <curtis.bowden@gmail.com>',
+    'description': 'Sentry4 PDU Checks for status, outlet and environment sensors',
+    'download_url': 'https://github.com/curtisbowden/checkmk_sentry4_pdu',
     'files': {
-        'agent_based': [],
+        'agent_based': ['sentry4_pdu_status.py'],
         'agents': [],
         'checkman': [],
         'checks': [],
@@ -13,9 +13,9 @@
         'pnp-templates': [],
         'web': []
     },
-    'name': '',
-    'title': u'',
-    'version': '0.1',
-    'version.min_required': '2.0.0',
-    'version.packaged': '2.0.0'
+    'name': 'sentry4_pdu_status',
+    'title': 'Sentry4 PDU Checks for status, outlet and environment sensors',
+    'version': '1.0',
+    'version.min_required': '2.0.0p25',
+    'version.packaged': '2.1.0p15'
 }

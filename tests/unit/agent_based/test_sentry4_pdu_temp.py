@@ -18,14 +18,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-#
-# Example from SNMP data:
-# Sentry4-MIB::st4UnitID.1 = STRING: A
-# Sentry4-MIB::st4UnitName.1 = STRING: Master
-# Sentry4-MIB::st4UnitProductSN.1 = STRING: ABCD0000001
-# Sentry4-MIB::st4UnitModel.1 = STRING: C2WG36TE-YQME2M66/C
-# Sentry4-MIB::st4UnitType.1 = INTEGER: masterPdu(0)
-# Sentry4-MIB::st4UnitStatus.1 = INTEGER: normal(0)
 
 import pytest  # type: ignore[import]
 from cmk.base.plugins.agent_based.agent_based_api.v1 import (

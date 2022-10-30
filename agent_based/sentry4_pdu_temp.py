@@ -126,7 +126,6 @@ def check_sentry4_pdu_temp(item, params, section):
     if item not in section:
         return
 
-
     low_alarm = 0.0
     low_warning = 0.0
     high_warning = 0.0

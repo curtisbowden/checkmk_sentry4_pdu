@@ -3,7 +3,7 @@
     'description': 'Sentry4 PDU Checks for status, outlet and environment sensors',
     'download_url': 'https://github.com/curtisbowden/checkmk_sentry4_pdu',
     'files': {
-        'agent_based': ['sentry4_pdu_status.py'],
+        'agent_based': ['sentry4_pdu_status.py', 'sentry4_pdu_temp.py'],
         'agents': [],
         'checkman': [],
         'checks': [],

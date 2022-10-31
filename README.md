@@ -19,6 +19,8 @@
 
 - `sentry4_pdu_temp` discovers and checks pdu temperature sensors
 
+- `sentry4_pdu_humid` discovers and checks pdu humidity sensors
+
 ## Development
 
 For the best development experience use [VSCode](https://code.visualstudio.com/) with the [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension. This maps your workspace into a checkmk docker container giving you access to the python environment and libraries the installed extension has.

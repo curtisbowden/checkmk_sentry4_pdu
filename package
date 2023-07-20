@@ -6,7 +6,8 @@
         'agent_based': [
             'sentry4_pdu_status.py',
             'sentry4_pdu_temp.py',
-            'sentry4_pdu_humid.py'
+            'sentry4_pdu_humid.py',
+            'sentry4_pdu_inlet.py'
         ],
         'agents': [],
         'checkman': [],

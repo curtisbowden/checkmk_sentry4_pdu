@@ -54,7 +54,6 @@
 # Sentry4-MIB::st4OutletEnergy.2.1.1 = INTEGER: 0 Watt-Hours
 
 
-
 from .agent_based_api.v1 import (
     register,
     SNMPTree,

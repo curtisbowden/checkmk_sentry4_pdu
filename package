@@ -23,6 +23,6 @@
     'title': 'Sentry4-MIB checks for PDU status, plugs and environment sensors',
     'version': '1.0.0',
     'version.min_required': '2.0.0',
-    'version.packaged': '2.1.0'
+    'version.packaged': '2.1.0',
     'version.usable_until': '2.3.0',
 }

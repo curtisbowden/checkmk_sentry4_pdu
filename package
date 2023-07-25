@@ -1,6 +1,6 @@
 {
     'author': 'Curtis Bowden <curtis.bowden@gmail.com>',
-    'description': 'Sentry4 PDU Checks for status, outlet and environment sensors',
+    'description': 'Sentry4-MIB checks for PDU status, plugs and environment sensors',
     'download_url': 'https://github.com/curtisbowden/checkmk_sentry4_pdu',
     'files': {
         'agent_based': [
@@ -17,14 +17,12 @@
         'inventory': [],
         'notifications': [],
         'pnp-templates': [],
-        'web': [
-            'plugins/metrics/sentry4_pdu_metrics.py',
-            'plugins/perfometer/sentry4_pdu_perfometer.py',
-        ]
+        'web': []
     },
     'name': 'sentry4_pdu',
-    'title': 'Sentry4 PDU Checks for status, outlet and environment sensors',
-    'version': '1.0',
-    'version.min_required': '2.0.0p25',
-    'version.packaged': '2.1.0p30'
+    'title': 'Sentry4-MIB checks for PDU status, plugs and environment sensors',
+    'version': '1.0.0',
+    'version.min_required': '2.0.0',
+    'version.packaged': '2.1.0'
+    'version.usable_until': '2.3.0',
 }
